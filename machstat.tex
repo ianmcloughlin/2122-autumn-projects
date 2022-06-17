@@ -27,32 +27,35 @@
   
   The purpose of this assessment is to ensure that you have achieved the learning outcomes of the module while also providing you with sample work to show prospective employers.
   The overall assessment is split into the three components as detailed below.
-  The percentages beside each bullet point indicate the weighting of that item in your overall mark.
+  The percentages beside each heading give the weighting of each of the three components.
+  You may assume that each bullet point has an equal weighting within its component.
   Note, however, that the examiners' overall impression of your submission may override the individual weightings where deemed appropriate.
   
-  \subsubsection*{GitHub Repository}
+  \subsubsection*{GitHub Repository (20\%)}
   Create a GitHub repository containing two Jupyter notebooks -- these are described further down.
   The repository should contain the following:
-  \begin{description}
-    \item[10\%] A clear and informative \texttt{README.md} explaining why the repository exists, what is in it, and how to run the notebooks.
-    \item[10\%] A \texttt{requirements.txt} file that enables someone to quickly run your notebooks with minimal configuration. You should also include any other required files such as data files and image files.
-  \end{description}
+  \begin{itemize}
+    \item A clear and informative \texttt{README.md} explaining why the repository exists, what is in it, and how to run the notebooks.
+    \item A \texttt{requirements.txt} file that enables someone to quickly run your notebooks with minimal configuration. You should also include any other required files such as data files and image files.
+  \end{itemize}
 
-  \subsubsection*{Scikit-Learn Jupyter Notebook}
+  \subsubsection*{Scikit-Learn Jupyter Notebook (40\%)}
   Include a Jupyter notebook called \texttt{scikit-learn.ipynb} that contains the following.
-  \begin{description}
-    \item[10\%] A clear and concise overview of the \texttt{scikit-learn} Python library~\cite{scikit-learn}.
-    \item[20\%] Demonstrations of three interesting \texttt{scikit-learn} algorithms. You may choose these yourself, based on what is covered in class or otherwise. Note that the demonstrations are at your discretion -- you may choose to have an overall spread of examples across the library or pick a particular part that you find interesting.
-    \item[10\%] Appropriate plots and other visualisations to enhance your notebook for viewers.
-  \end{description}
+  \begin{itemize}
+    \item An overview the \texttt{scikit-learn} Python library~\cite{scikit-learn}.
+    \item An example of using \texttt{scikit-learn} to perform regression. You may use any open dataset you wish for this purpose, including any built-in to the library. Appropriate plots and explanations in MarkDown should be included.
+    \item An example of using \texttt{scikit-learn} to perform classification. You may use any open dataset you wish for this purpose, including any built-in to the library. Appropriate plots and explanations in MarkDown should be included. 
+    \item An appropriate Dockerfile for the repository.
+  \end{itemize}
   
-  \subsubsection*{Scipy Stats Jupyter Notebook}
-  Include a Jupyter notebook called \texttt{scipy-stats.ipynb} that contains the following.
-  \begin{description}
-    \item[10\%] A clear and concise overview of the \texttt{scipy.stats} Python library~\cite{scipy-stats}.
-    \item[20\%] An example hypothesis test using ANOVA. You should find a data set on which it is appropriate to use ANOVA, ensure the assumptions underlying ANOVA are met, and then perform and display the results of your ANOVA using \texttt{scipy.stats}.
-    \item[10\%] Appropriate plots and other visualisations to enhance your notebook for viewers.
-  \end{description}
+  \subsubsection*{ANOVA Notebook (40\%)}
+  Include a Jupyter notebook called \texttt{anova.ipynb} that contains the following.
+  \begin{itemize}
+    \item A comparison of performing ANOVA using the \texttt{scipy.stats} Python library~\cite{scipy-stats} versus the \texttt{statsmodels} Python library~\cite{statsmodels}.
+    \item An example hypothesis test using ANOVA with \texttt{scipy.stats}. You should find an appropriate open data set online, ensure the assumptions underlying ANOVA are met, and then perform and display the results of your ANOVA.
+    \item The same analysis done using \texttt{statsmodels}.
+    \item Appropriate plots and other visualisations to enhance your notebook for viewers.
+  \end{itemize}
 
   \section*{More information about marking}
     In completing each component of the assessment, you should consider the following four overall aspects of academic work.
