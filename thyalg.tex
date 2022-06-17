@@ -7,20 +7,25 @@
 \title{Assessment Autumn 21/22}
 \author{}
 \modulename{Theory of Algorithms}
-\date{Due: last commit on or before May 8\textsuperscript{th}, 2022}
+\date{Due: last commit on or before August 21\textsuperscript{st}, 2022}
 
 
 \begin{document}
-
+  
   \maketitle
+  
+  \vspace{-12mm}
+  \begin{center} \textbf{To submit, please email your repository URL to \url{ian.mcloughlin@atu.ie}}. \end{center}
 
-  These are the instructions for completing the assessment of Theory of Algorithms in August 2021/2022.
+
+  \noindent These are the instructions for the assessment of Theory of Algorithms in Autumn 2021/2022.
   The assessment is worth 100\% of the marks for the module.
   Please read the \emph{Using git for assessments}~\cite{usinggit} document on the Moodle page which applies here.
   As always, you must also follow the code of student conduct and the policy on plagiarism~\cite{gmitqaf}.
 
   \section*{Instructions}
-  This assessment is designed to ensure that you have achieved the learning outcomes of the module while also providing you with sample work to show prospective employers.
+  
+  The purpose of this assessment is to ensure that you have achieved the learning outcomes of the module while also providing you with sample work to show prospective employers.
   The overall assessment is split into the three interconnected components as detailed below.
   The percentages beside each heading give the weighting of each of the three components.
   You may assume that each bullet point has an equal weighting within its component.
@@ -37,19 +42,19 @@
   \subsubsection*{Post Correspondence Problem Notebook (40\%)}
   Include in your repository a Jupyter notebook called \texttt{post-correspondence.ipynb} that contains the following.
   \begin{itemize}
-    \item Definition and explanation of the Post Correspondence Problem.
-    \item Definition and explanation of the Bounded Post Correspondence Problem.
-    \item Python function to solve the Bounded Post Correspondence Problem. The function should take two lists of strings and return \texttt{True} if they correspond, \texttt{False} otherwise.
-    \item Explanation of what an undecidable problem is in computability theory, with reference to the Post Correspondence Problem.
+    \item History and explanation of undecidable problems.
+    \item Definition and explanation of the Post Correspondence Problem and the Bounded Post Correspondence Problem.
+    \item Explanation as to why the Post Correspondence Problem is undecidable, but the Bounded Post Correspondence Problem is not.
+    \item Python function to solve the Bounded Post Correspondence Problem. The function should take two lists of strings (and a bound $k$) and return \texttt{True} if they correspond, \texttt{False} otherwise.
   \end{itemize}
   
   \subsubsection*{Countdown Numbers Game Notebook (40\%)}
   Include in your repository a Jupyter notebook called \texttt{countdown.ipynb} that contains the following.
   \begin{itemize}
     \item Overview and explanation of the Countdown Numbers Game~\cite{countdownnumbers}.
-    \item Discussion of the complexity of the Countdown Numbers Game~\cite{countdownnumbers}.
     \item Python function, written in a functional programming style~\cite{pythonfunctional} to solve a Countdown Numbers Game. The function should take a list of six numbers and a target number and return a method to calculate the target from the numbers, if it exists.
     \item Explanation of the functional~\cite{pythonfunctional} aspects of your code.
+    \item An explanation and analysis of whether your above Python function contains any side effects.
   \end{itemize}
 
   \section*{More information about marking}
@@ -67,5 +72,5 @@
     
   \bibliographystyle{IEEEtran}
   \bibliography{bibliography}
-  
+
 \end{document}

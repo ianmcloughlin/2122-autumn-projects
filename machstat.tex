@@ -1,0 +1,75 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+
+% Most of the preamble is in here.
+\usepackage{ianproject}
+
+% Heading
+\title{Assessment Autumn 21/22}
+\author{}
+\modulename{Machine Learning and Statistics}
+\date{Due: last commit on or before August 21\textsuperscript{st}, 2022}
+
+
+\begin{document}
+  
+  \maketitle
+  
+  \vspace{-12mm}
+  \begin{center} \textbf{To submit, please email your repository URL to \url{ian.mcloughlin@atu.ie}}. \end{center}
+
+
+  \noindent These are the instructions for the assessment of Machine Learning and Statistics in Autumn 2021/2022.
+  The assessment is worth 100\% of the marks for the module.
+  Please read the \emph{Using git for assessments}~\cite{usinggit} document on the Moodle page which applies here.
+  As always, you must also follow the code of student conduct and the policy on plagiarism~\cite{gmitqaf}.
+
+  \section*{Instructions}
+  
+  The purpose of this assessment is to ensure that you have achieved the learning outcomes of the module while also providing you with sample work to show prospective employers.
+  The overall assessment is split into the three components as detailed below.
+  The percentages beside each bullet point indicate the weighting of that item in your overall mark.
+  Note, however, that the examiners' overall impression of your submission may override the individual weightings where deemed appropriate.
+  
+  \subsubsection*{GitHub Repository}
+  Create a GitHub repository containing two Jupyter notebooks -- these are described further down.
+  The repository should contain the following:
+  \begin{description}
+    \item[10\%] A clear and informative \texttt{README.md} explaining why the repository exists, what is in it, and how to run the notebooks.
+    \item[10\%] A \texttt{requirements.txt} file that enables someone to quickly run your notebooks with minimal configuration. You should also include any other required files such as data files and image files.
+  \end{description}
+
+  \subsubsection*{Scikit-Learn Jupyter Notebook}
+  Include a Jupyter notebook called \texttt{scikit-learn.ipynb} that contains the following.
+  \begin{description}
+    \item[10\%] A clear and concise overview of the \texttt{scikit-learn} Python library~\cite{scikit-learn}.
+    \item[20\%] Demonstrations of three interesting \texttt{scikit-learn} algorithms. You may choose these yourself, based on what is covered in class or otherwise. Note that the demonstrations are at your discretion -- you may choose to have an overall spread of examples across the library or pick a particular part that you find interesting.
+    \item[10\%] Appropriate plots and other visualisations to enhance your notebook for viewers.
+  \end{description}
+  
+  \subsubsection*{Scipy Stats Jupyter Notebook}
+  Include a Jupyter notebook called \texttt{scipy-stats.ipynb} that contains the following.
+  \begin{description}
+    \item[10\%] A clear and concise overview of the \texttt{scipy.stats} Python library~\cite{scipy-stats}.
+    \item[20\%] An example hypothesis test using ANOVA. You should find a data set on which it is appropriate to use ANOVA, ensure the assumptions underlying ANOVA are met, and then perform and display the results of your ANOVA using \texttt{scipy.stats}.
+    \item[10\%] Appropriate plots and other visualisations to enhance your notebook for viewers.
+  \end{description}
+
+  \section*{More information about marking}
+    In completing each component of the assessment, you should consider the following four overall aspects of academic work.
+    It is important that your submission provides direct evidence of each aspect.
+    For instance, your commit history should demonstrate that you were consistent in your work.
+    Likewise, your submission should have references in it to demonstrate that you considered the literature and the work of others.
+  
+    \subsubsection*{Research}
+    Evidence of research performed on topic; submission based on referenced literature, particularly academic literature; evidence of understanding the documentation for any software or libraries used.
+    \subsubsection*{Development}
+    Environment can be set up as described; code works without tweaking and as described; code is efficient, clean, and clear; evidence of consideration of standards and conventions appropriate to code of this kind.
+    \subsubsection*{Consistency}
+    Evidence of planning and project management; pragmatic attitude to work as evidenced by well-considered commit history; commits are of a reasonable size; consideration of how commit history will be perceived by others.
+    \subsubsection*{Documentation}
+    Clear documentation of how to create an environment in which any code will run, how to prepare the code for running, how to run the code including setting any options or flags, and what to expect upon running the code. Concise descriptions of code in comments and README.
+    
+  \bibliographystyle{IEEEtran}
+  \bibliography{bibliography}
+  
+\end{document}
